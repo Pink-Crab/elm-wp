@@ -18,5 +18,7 @@
         "elm/http": "2.0.0 <= v < 3.0.0",
         "NoRedInk/elm-json-decode-pipeline": "1.0.0 <= v < 2.0.0"
     },
-    "test-dependencies": {}
+    "test-dependencies": {
+        "elm-explorations/test": "2.0.0 <= v < 3.0.0"
+    }
 }
