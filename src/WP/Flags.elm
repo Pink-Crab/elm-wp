@@ -12,7 +12,7 @@ silently producing a stale model.
 
 import Json.Decode as D
 import Json.Decode.Pipeline exposing (required)
-import WP.User as User exposing (User)
+import WP.User.Type as User exposing (User)
 
 
 {-| Mirror of the PHP flags blob emitted by `Standard_Flags::build()` plus the
