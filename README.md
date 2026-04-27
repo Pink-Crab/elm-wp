@@ -180,11 +180,11 @@ The JS bootstrap and the Elm package must agree on these names. Changing any is 
 
 ### Versioning
 
-Elm's package convention starts at `1.0.0`, so this package begins its life at `1.x`. The PHP and npm siblings currently ride `0.x` during pre-release; compatibility across all three is tracked by a table in each README rather than strict version equality:
+All three packages share a major version. Within `1.x`, minor and patch versions can move independently per package — compatibility is guaranteed across the same major.
 
 | `pinkcrab/elm-mount` | `@pinkcrab/elm-wp-bootstrap` | `Pink-Crab/elm-wp` |
 |----------------------|------------------------------|--------------------|
-| `0.1.x`              | `0.1.x`                      | `1.0.x`            |
+| `1.x`                | `1.x`                        | `1.x`              |
 
 ## License
 
