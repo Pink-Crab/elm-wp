@@ -1,0 +1,13 @@
+{
+    "name": "pink-crab-elm-wp-dev",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Dev tooling only — runs the elm-test suite for Pink-Crab/elm-wp. The package itself is published to the Elm package registry, not npm.",
+    "scripts": {
+        "test": "elm-test"
+    },
+    "devDependencies": {
+        "elm": "^0.19.1-6",
+        "elm-test": "^0.19.1-revision17"
+    }
+}
